@@ -30,9 +30,9 @@ export default function Navbar({ onMobileMenuToggle }: NavbarProps) {
 
   const mobileMenuItems = [
     { name: "When & Where", href: "#d-time" },
-    { name: "Sponsors", href: "#sponsors" },
     { name: "Schedule", href: "#schedule" },
     { name: "FAQ", href: "#faq" },
+    { name: "Sponsors", href: "#sponsors" },
     { name: "Apply", href: "#apply" },
   ];
 
@@ -67,9 +67,9 @@ export default function Navbar({ onMobileMenuToggle }: NavbarProps) {
         <div className="hidden md:flex xl:space-x-8 lg:space-x-6 md:space-x-4 justify-center w-full ml-8">
           {[
             { name: "When & Where", href: "#d-time" },
-            { name: "Sponsors", href: "#sponsors" },
             { name: "Schedule", href: "#schedule" },
             { name: "FAQ", href: "#faq" },
+            { name: "Sponsors", href: "#sponsors" },
             { name: "Apply", href: "#apply" },
           ].map((item) => (
             <a
