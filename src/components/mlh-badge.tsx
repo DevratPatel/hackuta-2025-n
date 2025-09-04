@@ -30,7 +30,7 @@ export default function MLHBadge({ isMobileMenuOpen = false }: MLHBadgeProps) {
         href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2026-season&utm_content=black"
         target="_blank"
         rel="noopener noreferrer"
-        className={`md:hidden fixed top-20 right-4 w-[60px] sm:w-[70px] transition-all duration-300 z-[90] ${
+        className={`md:hidden fixed top-20 right-10 -mt-2 w-[60px] sm:w-[70px] transition-all duration-300 z-[100] ${
           isMobileMenuOpen ? "opacity-0 pointer-events-none" : "opacity-100"
         }`}
       >

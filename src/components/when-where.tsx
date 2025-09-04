@@ -2,7 +2,10 @@
 
 export default function WhenWhere() {
   return (
-    <section id="when-where" className="py-24">
+    <section
+      id="d-time"
+      className="py-24 mt-8 sm:mt-12 md:mt-24 lg:mt-40 scroll-mt-32"
+    >
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-5xl font-bold mb-6 text-white">
