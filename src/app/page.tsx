@@ -26,23 +26,23 @@ export default function Home() {
       <Hero />
 
       {/* Main Content */}
-      <div className="font-franklinCondensed text-white text-center w-[100vw] mx-auto px-6 sm:px-10 p-[40px] mt-[-60px] sm:mt-[-40px] md:mt-0 relative z-[10]">
+      <div className="font-franklinCondensed text-white text-center w-[100vw] mx-auto px-6 sm:px-10 p-[20px] mt-[-60px] sm:mt-[-40px] md:mt-0 relative z-[10]">
         <Reveal>
           <WhenWhere />
         </Reveal>
 
-        <div className="mt-16" />
+        <div className="mt-8" />
         <Reveal>
           <Apply />
         </Reveal>
 
-        <section id="schedule" className="py-24">
+        <section id="schedule" className="py-8">
           <Reveal>
             <Schedule />
           </Reveal>
         </section>
 
-        <section id="faq" className="py-24">
+        <section id="faq" className="py-12">
           <Reveal>
             <Faq />
           </Reveal>

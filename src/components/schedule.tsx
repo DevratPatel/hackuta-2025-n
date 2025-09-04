@@ -24,7 +24,7 @@ export default function Schedule() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-      <div className="text-center mb-16">
+      <div className="text-center mb-8">
         <h2 className="text-3xl sm:text-5xl font-bold mb-4 text-white">
           HackUTA Schedule
         </h2>
@@ -78,7 +78,7 @@ export default function Schedule() {
 
                   {(day as ScheduleDay).children && (
                     <div className="flex-1">
-                      <div className="space-y-3">
+                      <div className="space-y-4">
                         {(day as ScheduleDay).children!.map((event) => (
                           <div key={event.id} className="p-4">
                             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">

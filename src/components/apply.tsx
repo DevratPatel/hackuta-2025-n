@@ -4,13 +4,13 @@ import InterestForm from "@/components/interest-form";
 
 export default function Apply() {
   return (
-    <section id="apply" className="py-24">
+    <section id="apply" className="py-16">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-5xl font-bold mb-6 text-white">
             ARE YOU READY TO GO BEYOND?
           </h2>
-          <p className="text-lg sm:text-xl text-gray-300 font-franklinGothic max-w-2xl mx-auto mb-12">
+          <p className="text-lg sm:text-xl text-gray-300 font-franklinGothic max-w-2xl mx-auto mb-8">
             Join hundreds of innovators, creators, and dreamers for 24 hours of
             building the future. Register now and be part of something
             extraordinary.

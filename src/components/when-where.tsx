@@ -4,19 +4,19 @@ export default function WhenWhere() {
   return (
     <section
       id="d-time"
-      className="py-24 mt-8 sm:mt-12 md:mt-24 lg:mt-40 scroll-mt-32"
+      className="py-12 mt-4 sm:mt-6 md:mt-8 lg:mt-4 scroll-mt-28"
     >
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h2 className="text-3xl sm:text-5xl font-bold mb-6 text-white">
             WHEN AND WHERE?
           </h2>
-          <p className="text-lg sm:text-xl text-gray-300 font-franklinGothic max-w-2xl mx-auto mb-12">
+          <p className="text-lg sm:text-xl text-gray-300 font-franklinGothic max-w-2xl mx-auto mb-8">
             Mark your calendars! Here's everything you need to know about the
             event details.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             {/* When Card */}
             <div className="bg-gradient-to-br from-purple-900/30 to-blue-900/30 backdrop-blur-sm border border-purple-500/40 rounded-3xl p-8 transition-all duration-500 hover:border-purple-400/60 hover:shadow-2xl hover:shadow-purple-500/20">
               <div className="flex flex-col items-center text-center">

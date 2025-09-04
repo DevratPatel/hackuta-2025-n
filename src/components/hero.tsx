@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className="relative w-full min-h-[130vh] md:min-h-[170vh] flex justify-center items-start">
       {/* Logo Container with glow */}
-      <div className="absolute w-full top-[5%] sm:top-[20%] md:top-[15%] lg:top-[20%] left-1/2 transform -translate-x-1/2 z-50 flex flex-col items-center">
+      <div className="absolute w-full top-[5%] sm:top-[20%] md:top-[10%] lg:top-[12%] left-1/2 transform -translate-x-1/2 z-50 flex flex-col items-center">
         <Image
           src="/Logo.svg"
           alt="Main Logo"
@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       {/* Buildings + Glow */}
-      <div className="absolute w-full top-[70%] sm:top-[75%] md:top-[50%] left-0 flex justify-center items-end">
+      <div className="absolute w-full top-[60%] sm:top-[55%] md:top-[30%] left-0 flex justify-center items-end">
         <div className="relative w-full">
           <Image
             src="/BuildingGlow.svg"
