@@ -10,20 +10,24 @@ export default function Home() {
   return (
     <div className="scrollbar-hide bg-gradient-to-b from-black via-blue-950 to-blue-900 min-h-screen">
       <Navbar />
-      {/* MLH Trust Badge */}
+      {/* MLH Trust Badge - centered under navbar on mobile, original position on md+ */}
       <a
         id="mlh-trust-badge"
         href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2026-season&utm_content=black"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed z-[10000] right-2 top-[0px] w-[60px] sm:w-[80px] md:w-[90px]"
+        className="fixed z-[10000] top-[72px] left-[83vw] -translate-x-1/2 w-[68px] sm:w-[80px]
+         md:top-0 md:right-2 md:left-auto md:translate-x-0 md:w-[90px]
+         transition-opacity duration-300"
+        aria-label="Major League Hacking 2026 Hackathon Season"
       >
         <Image
           width={90}
           height={157}
           src="https://s3.amazonaws.com/logged-assets/trust-badge/2026/mlh-trust-badge-2026-black.svg"
           alt="Major League Hacking 2026 Hackathon Season"
-          className="w-full h-auto"
+          className="w-full h-auto drop-shadow-[0_0_12px_rgba(0,0,0,0.45)]"
+          priority
         />
       </a>
 
